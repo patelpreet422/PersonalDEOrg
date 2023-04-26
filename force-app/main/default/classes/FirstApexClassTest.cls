@@ -7,7 +7,7 @@ private class FirstApexClassTest {
         
         // Verify that the debug statement is printed
         Test.startTest();
-        System.debug(LoggingLevel.INFO, 'Test log');
+        System.debug(LoggingLevel.INFO, 'Test worked successfully');
         Test.stopTest();
     }
 }
