@@ -49,7 +49,7 @@ steps:
     displayName: 'Re-check Validation Results'
   
   - script: |
-      sfdx force:source:deploy --wait 10 --testlevel RunLocalTests --targetusername DevHub
+      sfdx force:mdapi:deploy --deploydir deploy-dir --testlevel RunLocalTests -w 10 --json
     displayName: 'Deploy Changes to Development Sandbox'
 
   - script: |
