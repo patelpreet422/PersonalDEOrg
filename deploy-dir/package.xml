@@ -4,15 +4,12 @@
         <members>FirstApexClass</members>
         <members>FirstApexClassTest</members>
         <members>SecondApexClass</members>
+        <members>SecondApexClassTest</members>
         <name>ApexClass</name>
     </types>
     <types>
         <members>FirstApexClassTest</members>
         <name>ApexTestSuite</name>
-    </types>
-    <types>
-        <members>Admin</members>
-        <name>Profile</name>
     </types>
     <version>56.0</version>
 </Package>

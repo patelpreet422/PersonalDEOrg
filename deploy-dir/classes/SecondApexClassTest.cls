@@ -1,9 +1,10 @@
 @isTest
-private class FirstApexClassTest {
+private class SecondApexClassTest {
+
     @isTest
-    static void testFirstApexClass() {
-        // Create an instance of the FirstApexClass
-        FirstApexClass firstApexClass = new FirstApexClass();
+    static void testSecondApexClass() {
+        // Create an instance of the SecondApexClass
+        SecondApexClass secondApexClass = new SecondApexClass();
         
         // Verify that the debug statement is printed
         Test.startTest();
